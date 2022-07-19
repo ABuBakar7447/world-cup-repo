@@ -43,6 +43,7 @@ p{
     display: flex;
     width: 50%;
     margin-top: 20px;
+
     
     
 }
@@ -72,5 +73,34 @@ p{
     font-weight: bolder;
 }
 
+/* ------inside middle
+         part layout--------*/
 
 
+.middle-design{
+    margin-top: 60px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 300px 900px;
+
+    
+}
+
+.middle-design .alongside-box{
+    border: 2px solid red;
+}
+
+.multiple-button{
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alongside-box .new-d{
+    display: grid;
+    padding-left: 30px;
+    width: 900px;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
