@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    font-family: 'Arvo', serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* ----------main pages 
+            layout design---------*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(176, 196, 222, 0.308);
+    
+}
+
+/* ------inside upper
+         part layout--------*/
+
+.player-background{
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    width: 1200px;
+    height: 550px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
+
+p{
+    color: white;
+}
+
+.player-background .player{
+    display: flex;
+    width: 50%;
+    margin-top: 20px;
+    
+    
+}
+
+.player-background .player img{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+
+.player-inside{
+    margin-left: 30px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.button-design{
+    font-size: 18px;
+    background-image: linear-gradient(yellow, tomato);
+    width: 187px;
+    height: 56px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+
+
