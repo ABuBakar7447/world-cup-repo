@@ -97,12 +97,6 @@ p{
     color: red;
 }
 
-.button-visible{
-    margin: 50px;
-    visibility: hidden;
-
-}
-
 
 
 /* ------inside middle
@@ -192,6 +186,13 @@ p{
     display: grid;
     grid-template-columns: 30px 60px 30px 30px;
 
+}
+
+/* ---------tab button design---------- */
+
+.tab-button{
+    visibility: hidden;
+    margin-bottom: 50px;
 }
 
 
@@ -284,11 +285,13 @@ h5{
 
 
 
-/* -------
-media queris design
-------------  */
+/* ------------------------------
+        media queris design
+-------------------------------  */
 
-/* -------mobile-part------ */
+/* -------
+--------------Mobile-part Responsive
+------ */
 
 @media only screen and (max-width:688px) {
     .player-background{
@@ -297,6 +300,13 @@ media queris design
         display: flex;
         flex-direction: column;
     
+    }
+
+    .player-background:hover{
+        background-color: black;
+        width: 80%;
+        height: 100%;
+        
     }
 
     .player-background .player{
@@ -375,11 +385,111 @@ bottom part design for mobile
     
     }
 
+}
 
 
-    
-    .tab-button{
-        display: none;
+/* -------
+--------------Mobile-part Responsive
+------ */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+
+/* Header part responsive */
+
+
+    .player-background{
+        width: 90%;
+        height: 100%;
+        display: flex;
+    }
+
+    .player-background:hover{
+        background-color: black;
+        width: 80%;
+        height: 100%;
+            
     }
     
+    .player-background .player{
+        width: 90%;
+    
+    }
+        
+    h1{
+        font-size: 35px;
+    }
+    .player-inside .button-design{
+        margin-bottom: 30px;
+    }
+
+
+    /* middle part tab-design */
+
+    .middle-design{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 0px;
+    
+
+    }
+
+    .middle-design .left-box {
+        height: 20%;
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: darkslategray;
+        border-radius: 10px;
+    }
+
+    .middle-design .left-box{
+        background-color: white;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px;
+        border: none;
+        background-color: rgba(176, 196, 222, 0);
+
+    }
+
+    .multiple-button {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .right-box .inside-right {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .transfer-news {
+        margin: 10px 30px;
+    }
+
+    .match-news{
+        margin: 10px 30px;
+    }
+
+
+    /* tab button responsive */
+
+    .tab-button{
+        visibility: visible;
+    }
+
+
+    .bottom-part .middle {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    
 }
+
