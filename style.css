@@ -62,16 +62,20 @@ p{
     padding-right: 50px;
     
 }
+/* ----inside upper part and middile part button design---- */
 
 .button-design{
     font-size: 18px;
     background-image: linear-gradient(yellow, tomato);
     width: 187px;
     height: 56px;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 5px;
     font-weight: bolder;
+    margin-top: 20px;
 }
+
+
 
 /* ------inside middle
          part layout--------*/
@@ -79,28 +83,120 @@ p{
 
 .middle-design{
     margin-top: 60px;
-    width: 1200px;
-    display: grid;
-    grid-template-columns: 300px 900px;
-
+    margin-bottom: 80px;
+    display: flex;
     
 }
 
-.middle-design .alongside-box{
-    border: 2px solid red;
+.middle-design p{
+    color: black;
+    
+}
+
+
+/* ------inside middle
+         part layout leftbox design--------*/
+
+
+.middle-design .left-box{
+    height: 290px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 10px;
+    
 }
 
 .multiple-button{
-    width: 312px;
+    margin: 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.alongside-box .new-d{
+/* ------inside middle
+         part layout rightbox design--------*/
+
+.right-box .inside-right{
     display: grid;
-    padding-left: 30px;
+    row-gap: 0px;
+    margin-left: 30px;
     width: 900px;
-    grid-template-columns: repeat(2, 1fr);
+    height: 1200px;
+    grid-template-columns: repeat(3, 1fr);
     
 }
+
+.transfer-news{
+
+    width: 280px;
+    height: 362px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+
+}
+
+.transfer-news .transfer-pic img{
+    width: 280px;
+    height: 175px;
+}
+
+/* ---------inside transfer-news button design--------- */
+
+.transfer{
+    width: 100px;
+    height: 32px;
+    margin: 10px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* ----transfer-news icon, parragraph margin distance----- */
+
+.transfer-news .left-distance{
+    margin: 5px 8px;
+}
+
+/*----- transfer news icon and other design--------- */
+.transfer-news .time-comment{
+    display: grid;
+    grid-template-columns: 30px 60px 30px 30px;
+
+}
+
+
+
+/* ---------------footer design------------- */
+
+
+
+.bottom-part{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.upper{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+hr{
+    width: 1000px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.bottom-part .middle{
+    display: flex; 
+    margin: 20px;   
+}
+
+.middle .distance-between{
+    margin: 0px 20px;
+}
+
