@@ -26,6 +26,13 @@ main{
     display: flex;
     width: 1200px;
     height: 550px;
+    transition: background-color 2s, width 10s , height 10s;
+}
+
+.player-background:hover{
+    background-color: black;
+    width: 1100px;
+    height: 700px;
 }
 
 h1{
@@ -88,6 +95,12 @@ p{
 
 .extra-color:hover{
     color: red;
+}
+
+.button-visible{
+    margin: 50px;
+    visibility: hidden;
+
 }
 
 
@@ -204,6 +217,10 @@ hr{
     width: 1000px;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+
+.last a{
+    color: white;
 }
 
 .bottom-part .middle{
